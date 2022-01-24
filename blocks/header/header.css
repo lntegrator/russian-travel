@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: calc(100% - 48px * 2);
+    align-self: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -16,5 +17,6 @@
 @media screen and (max-width: 768px) {
     .header{
         width: 100%;
+        margin-top: 28px;
     }
 }
